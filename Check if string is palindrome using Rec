@@ -1,0 +1,18 @@
+public class Rec_6 {
+
+    public static boolean print(int i,String s){
+        int n=s.length();
+        if(i>=n/2){
+            return true;
+        }
+        if(s.charAt(i)!=s.charAt(n-1-i)){
+            return false;
+
+        }
+        return print(i+1,s);
+    }
+    public static void main(String[] args) {
+        String s="MADAM";
+        System.out.println(print(0,s));
+    }
+}
