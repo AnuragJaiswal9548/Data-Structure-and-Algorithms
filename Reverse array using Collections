@@ -7,9 +7,11 @@ public class Arr {
     
     // datatype is Integer
         Integer arr[] = { 10, 20, 30, 40, 50 };
-
         Collections.reverse(Arrays.asList(arr));
-        System.out.println( Arrays.toString(arr));
-
-    }
-}
+        
+      //  System.out.println( Arrays.toString(arr)); print using toString
+     
+      for(int i=0;i,arr.length;i++){
+      System.out.print(arr[i]);
+      } 
+      } }
