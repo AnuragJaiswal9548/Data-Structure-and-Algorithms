@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Ans {
+
+    public static void main(String[] args) {
+       int x=-121;
+
+       int s=0;
+       int c=x;
+       while(x>0){
+
+           int r=x%10;
+           s=10*s +r;
+           x=x/10;
+       }
+       if(c==s){
+           System.out.println("Palindrome");
+       }
+       else{
+           System.out.println("Not Palindrome");
+       }
+
+    }
+
+    }
+
